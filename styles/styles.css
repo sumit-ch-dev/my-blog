@@ -1,0 +1,80 @@
+body {
+    width: 70%;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    background-color: #FBF6EE;
+    background-image: url("https://1000logos.net/wp-content/uploads/2020/08/Blogger-Logo-2010.png");
+    background-size: 100px;
+    background-blend-mode: lighten;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    font-weight: lighter;
+    background-color: #FFB534;
+    border-radius: 10px;
+}
+
+.post-container {
+    display: block;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px;
+}
+
+.post {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #FFB534;
+    box-shadow: 5px 5px 5px #FFB534;
+}
+
+.post>h1 {
+    /* color: #FF90C2; */
+}
+
+.logo {
+    width: 10px;
+    height: 10px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #FFB534;
+    box-shadow: 5px 5px 5px #FFB534;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFB534;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #FFB534;
+}
+
+.nav-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFB534;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #FFB534;
+}
+
+.nav-item {
+    margin: 20px;
+}
+
+.nav-item>a {
+    text-decoration: none;
+}
