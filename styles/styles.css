@@ -12,6 +12,19 @@ body::-webkit-scrollbar {
     display: none;
 }
 
+.post-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFB534;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #FFB534;
+
+}
+
 .header {
     display: flex;
     flex-direction: row;
@@ -36,6 +49,29 @@ body::-webkit-scrollbar {
 
 .post>h1 {
     /* color: #FF90C2; */
+}
+
+.post-image {
+    width: 30%;
+    height: 30%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #FFB534;
+    box-shadow: 5px 5px 5px #FFB534;
+
+}
+
+.post-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.post-content>p {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #FFB534;
+    box-shadow: 5px 5px 5px #FFB534;
+
 }
 
 .logo {
